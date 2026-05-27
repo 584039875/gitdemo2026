@@ -20,5 +20,7 @@ git config set user:
 reset from remote:
 >git reset --hard origin/main
 
+fetch from remote:
+>git fetch origin main
 
 
