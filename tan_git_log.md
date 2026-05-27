@@ -13,3 +13,12 @@ vpn proxy unset:
 >git config --global --unset http.proxy
 >git config --global --unset https.proxy
 
+git config set user:
+>git config --global user.name "gltan123"
+>git config --global user.email "584039875@qq.com"
+
+reset from remote:
+>git reset --hard origin/main
+
+
+
