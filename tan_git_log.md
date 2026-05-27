@@ -1,0 +1,15 @@
+>git init
+>git add .
+>git commit -m "first commit"
+>git branch -M main
+>git remote add origin https://github.com/username/repository-name.git
+>git push -u origin main
+
+vpn proxy set:
+>git config --global http.proxy 127.0.0.1:10808
+>git config --global https.proxy 127.0.0.1:10808
+
+vpn proxy unset:
+>git config --global --unset http.proxy
+>git config --global --unset https.proxy
+
