@@ -22,5 +22,11 @@ reset from remote:
 
 fetch from remote:
 >git fetch origin main
+reset from remote:
+>git reset --hard origin/main
+
+fetch from remote:
+>git fetch origin main
+>git remote set-head origin --auto
 
 
